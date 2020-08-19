@@ -1,7 +1,7 @@
 def my_collect(array)
   i = 0
-  while array[i] do |new_array|
-    yield
+  while i < array.length
+    yield(array[i])
   end
 end 
 
