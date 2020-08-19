@@ -1,7 +1,7 @@
 def my_collect(array)
-  array do |language|
+  i = 0
+  while array[i] do |new_array|
     yield
-  language.upcase
   end
 end 
 
